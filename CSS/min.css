@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../Media/bg.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: #050505;
+}
+
+.navbar-nav {
+    width: 500px;
+}
+
+.nav-link{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link:hover{
+    color: #D2D2D2;
+}
+
+.form-inline{
+    width: auto;
+    float: inherit;
+}
+
+.presentacion, .presentacion2{
+    widows: 80%;
+    margin: 5%;
+    border: 1px solid #ffffff;
+}
+
+.rotulo{   
+    width: 41px;
+    height: 100%;
+    margin: 5%;   
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #fff;
+
+    transform: rotate(90deg);
+}
+
+.presentacion{
+    float: left;
+}
+
+.presentacion2{
+    float: right;
+}
+
+.presentacion , .presentacion2 h2{
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    margin-left: 5%;
+}
+
+.presentacion , .presentacion2 p{
+    font-family: 'Roboto Slab', serif;
+    text-indent: 10px;
+    color: #fff;
+    width: 70%;
+    margin-left: 5%;
+}
+@media (max-width: 768px){
+    .navbar-nav {
+        width: auto;
+    }
+}
+@media (max-width: 425px){
+    .navbar-brand{
+        width: 100%; 
+    }
+
+    .navbar-nav {
+        width: auto;
+    }
+}
