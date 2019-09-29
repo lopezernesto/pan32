@@ -20,7 +20,7 @@
 </head>
 <body>
     <!-- menu de navegacion-->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" style="width: 100%;">
         <button class="navbar-toggler bg-transparent" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src="Media/menu.png" width="30" height="30" class="d-inline-block align-top" alt="">
         </button>
@@ -30,13 +30,13 @@
             </a>
             <ul class="navbar-nav" style="width: 500px;">
                 <li class="nav-item">
-                    <a class="nav-link" href="#Yo">Yo</a>
+                    <a class="nav-link" href="#presentacion2">Yo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#coso">Trabajos</a>
+                    <a class="nav-link" href="#trabajo">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tecnologias</a>
+                    <a class="nav-link" href="#tecnologias">Tecnologias</a>
                 </li>
                 <!--<li class="nav-item">
                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -44,9 +44,9 @@
             </ul>
         </div>
     </nav>
-    <div id="presentacion" class="container d-flex align-items-center">
-        <div class="yo row justify-content-center">
-            <div class="col">
+    <div id="presentacion" class="container">
+        <div class="yo row d-flex align-items-center justify-content-center">
+            <div class="col d-flex justify-content-center">
                     <img src="Media/yo.jpg" alt="" class="perfil">
             </div>
             <div class="col">
@@ -58,11 +58,92 @@
                     Amo la Programacion, y solucionar Problemas. 
                     No soy el Mayor Experto pero me Gusta lo que hago.
                 </p>
+                <p>
+                    <a class="btn text-light btn-outline-light" href="#presentacion2">
+                        Mas <img src="Media/more.png" alt="" style="width: 20%;">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-bottom">
+        </div>
+    </div>
+    <div class="presentacion2" id="presentacion2">
+        <div class="fila">
+            <div class="quienSoy">
+                <p class="titu">quien soy?</p>
+                <p>Soy lo que se diria un apacionado de la Programacion. 
+                    Siempre tuve interes por la informatica desde que escribi mi Primer “hola mundo”. 
+                    Ahora que tengo 21 alis y mas de 4 años programando me decidi hacerlo mi trabajo.  
+                </p>
+            </div>
+        </div>
+        <div class="fila d-flex justify-content-end">
+            <div class="queEcho">
+                <p class="titu">que he echo?</p>
+                <p>Desde mis inicio en la Programacion, me enfoque en la web. 
+                    he avanzado mucho con las tecnologias frontend, que seria lo que se visualiza. 
+                    pero tambien no descuide los aspectos de lo que no se ve, el backend de una plataforma web. 
+                    llegando a programar cargas de productos en una base de datos y visualizacion, 
+                    lo necesario para un ecomerce
+                </p>
+            </div>
+        </div>
+        <div class="fila" id="trabajo">
+            <div class="quienSoy">
+                <p class="titu">proyectos terminados o en proceso</p>
+                <div class="proyecto d-flex justify-content-start">
+                    <div class="logo">
+                        <img src="Media/debian-fai.png" style="width: 80px;">
+                    </div>
+                    <div class="descripcion">
+                        <p>Intenet Segura:</p>
+                        <p>Repocitorio de trabajos de estudiantes secundarios. con el propocito de promover
+                        el uso de internet de forma segura.</p>
+                        <button class="info">
+
+                        </button>
+                        <hr>
+                    </div>
+                </div>
+                <div class="proyecto d-flex justify-content-start">
+                    <div class="logo">
+                        <img src="Media/debian-fai.png" style="width: 80px;">
+                    </div>
+                    <div class="descripcion">
+                        <p>Debian-fai:</p>
+                        <p>Pagina de divulgacion de Sistema Operativo Debian-fai. 
+                            Documentacion de la Instalacion ,descarga del Sistema Operativo, 
+                            y un blog de divulgacion de las actividades de el grupo de desarrollo Montun.</p>
+                        <button class="info">
+
+                        </button>
+                        <hr>
+                    </div>
+                </div>
+                <div class="proyecto d-flex justify-content-start">
+                    <div class="logo">
+                        <img src="Media/cefai.png" style="width: 80px;">
+                    </div>
+                    <div class="descripcion">
+                        <p>CEFAI-web:</p>
+                        <p>pagina de noticias y aplicaciones del la facultad de informatica.
+                            aplicacion de correlatividades, y aplicacines futuras.</p>
+                        <button class="info">
+
+                        </button>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="fila" id="tecnologias">
+                <h3>tecnologias que manejo</h3>
             </div>
         </div>
     </div>
-    <div class="presentacion2" id="">
-        p
-    </div>
+    <footer>
+        
+    </footer>
 </body>
 </html>
