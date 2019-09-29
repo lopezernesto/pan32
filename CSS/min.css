@@ -8,6 +8,18 @@ body{
     background-size: 100%;
     background-attachment: fixed;
 }
+
+h3{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;  
+}
+
 /*el menu*/
 .navbar{
     background-color: #050505;
@@ -41,7 +53,7 @@ body{
     height: 100%;
 }
 
-#presentacion2{
+#presentacion2, #tecnologias{
     margin: 0%;
     padding: 0%;
     width: 100%;
@@ -80,6 +92,7 @@ body{
 }
 
 .logo img{
+    margin: 10px;
     widows: 30px;
 }
 /*la presentacion principal*/
@@ -101,6 +114,62 @@ body{
     width: 300px;
     height: 300px;
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+
+/*tecnologias*/
+.lenguaje2 , .lenguaje{
+    width: 100%;
+}
+.contenido{
+    width: 50%;
+    border-bottom: 1px solid #ababab;
+}
+.lenguaje2 div p{
+    text-align: right;  
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    background: rgba(5, 5, 5);
+}
+
+footer .container{
+    width: 100%;
+    margin: 0%;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+footer a:hover{
+    color: rgb(211, 211, 211);
+}
+
+.bloc{
+    widows: 25%;
+}
+
+.titu2{
+    font-size: 24px;
+}
+
+ul li{
+    width: auto;
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    color: #F5F5F5;
+}
+
+.social{
+    width: 70px;
+    height: 70px;
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
@@ -142,10 +211,7 @@ body{
         width: 80%;
         margin-top: 10px;
     }
-    
-    .col{
-        width: 400px;
-    }
+
     
     .p1{
         font-size: 2em;
@@ -170,5 +236,16 @@ body{
         -moz-border-radius: 200px 200px 200px 200px;
         -webkit-border-radius: 200px 200px 200px 200px;
         border: 0px solid #000000;
+    }
+    .quienSoy{
+        width: 90%;
+    }
+    .descripcion p{
+        font-size: 10pt;
+    }
+
+    /*tecnologias*/
+    .contenido{
+        width: 100%;
     }
 }
