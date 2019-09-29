@@ -95,6 +95,7 @@ h5{
     margin: 10px;
     widows: 30px;
 }
+
 /*la presentacion principal*/
 .yo{
     margin-top: 5%;
@@ -184,9 +185,14 @@ ul li{
     }
 
     .yo{
-        width: 100%;
+        width: auto;
         margin-top: 10%;
         margin-left: 10%;
+    }
+
+    .yo .col p{
+        width: 100%;
+        text-align: center;
     }
 
     .perfil{
