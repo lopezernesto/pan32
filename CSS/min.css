@@ -66,8 +66,18 @@ h5{
 }
 
 .fila p{
-    size: 5pt;
+    size: 4pt;
     font-family: 'Source Code Pro', monospace;
+}
+
+.fila .quienSoy h3{
+    text-align: start;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fila .queEcho h3{
+    text-align: end;
+    font-family: 'Roboto Slab', serif;
 }
 
 .quienSoy{
@@ -84,7 +94,7 @@ h5{
 }
 
 .fila .titu{
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .logo{
